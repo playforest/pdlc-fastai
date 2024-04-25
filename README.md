@@ -21,3 +21,6 @@ This is where you'll find the notebooks, slides, and spreadsheets for the 2022 e
 2. Install dependencies
 ```cd ..r```
 ```cat requirements.txt | xargs -n 1 -P 5 pip install```
+
+3. install ipykernel and link it to venv:
+```python -m ipykernel install --user --name=pdlc```
